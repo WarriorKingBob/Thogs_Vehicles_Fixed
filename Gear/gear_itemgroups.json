@@ -107,6 +107,7 @@
   {
     "type": "item_group",
     "id": "drugdealer",
+    "subtype": "collection",
     "items": [
       [ "helmet_flak", 1 ],
       [ "cheap_ultralight_carrier", 5 ],
