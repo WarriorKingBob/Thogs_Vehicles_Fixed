@@ -1,5 +1,13 @@
 # !Warning!
-Delete the entire portion for "drugdealer" from gear_itemgroups.json in both ThogsThings and this mod if you are using Bright nights versions newer than 10/30 Nightly build. As outlined here: https://github.com/cataclysmbnteam/Cataclysm-BN/pull/5635, The updates changes "drugdealer" from itemgroup to collection. Loading the mod without removing the code WILL crash your game! We can only wait for the original author Thog to fix this, as I don't know how to.
+Add
+```
+"subtype": "collection",
+```
+after 
+```
+"id": "drugdealer",
+```
+in gear_itemgroups.json in ThogsThings. As outlined here: https://github.com/cataclysmbnteam/Cataclysm-BN/pull/5635, The updates changes "drugdealer" from itemgroup to collection. Loading the mod without updating the code WILL crash your game! We can only wait for the original author Thog to update his version, so in the meantime you will have to do it yourself.
 
 # Thogs_Vehicles_Fixed
 Mod for CDDA-BN, adding a huge variety of aircraft, watercraft, and ground-based vehicles of both the military and civilian variety, ranging from compact urban cars to gyrocopters, experimental military aircraft, and a litany of new solar and alternatively powered options. This version mostly fixes bugs from caninmyham's original mod.
