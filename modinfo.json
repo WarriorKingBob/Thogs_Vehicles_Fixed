@@ -4,9 +4,9 @@
     "id": "Thogs_Vehicles",
     "name": "Thog's Vehicles Fixed",
     "authors": [ "Thog/Caninmyham", "WarriorKingBob" ],
-    "description": "Adds a ton of vehicles, ranging from military and civilian grade aircraft to a huge variety of cars, trucks, military vehicles and even watercraft. Require Thog's Things.",
+    "description": "Adds a ton of vehicles, ranging from military and civilian grade aircraft to a huge variety of cars, trucks, military vehicles and even watercraft. Combined with Thog's Things and updated for latest version of Cataclysm: Bright Nights.",
     "category": "misc_additions",
-    "dependencies": [ "bn", "Thogs_Things" ],
+    "dependencies": [ "bn" ],
     "obsolete": false
   }
 ]

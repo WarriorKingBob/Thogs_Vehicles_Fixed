@@ -6,6 +6,18 @@
       { "item": "explosive_micromissile", "prob": 4 }
     ]
   },
+    {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "merc_mags_ak74",
+    "entries": [ { "item": "ak74mag", "ammo-item": "545", "charges": 30 }, { "item": "ak74mag", "ammo-item": "545", "charges": 30 }, { "item": "cz75mag_12rd", "ammo-item": "9mmfmj", "charges": 12 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "merc_mags_ak47",
+    "entries": [ { "item": "m1911mag", "ammo-item": "45_acp", "charges": 7 }, { "item": "m1911mag", "ammo-item": "45_acp", "charges": 7 }, { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 }, { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 }, { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 }, { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 } ]
+  },
   {
     "type": "item_group",
     "id": "NC_SOLDIER_shirt",
@@ -107,7 +119,7 @@
   {
     "type": "item_group",
     "id": "drugdealer",
-    "subtype": "collection",
+	"subtype": "collection",
     "items": [
       [ "helmet_flak", 1 ],
       [ "cheap_ultralight_carrier", 5 ],

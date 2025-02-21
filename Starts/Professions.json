@@ -1,6 +1,580 @@
 [
 {
     "type": "profession",
+    "id": "mercenaryrecruit",
+    "name": "Mercenary Recruit",
+    "description": "You were a high school drop-out with one goal in mind: to join the military.  But that didn't work out so well. So instead, you opted for the private sector, bought some cheap second-hand kit and an old rifle, and got caught up in the middle of the apocalypse before you ever got contracted. Maybe now it'll be easier to find some employment.",
+    "points": 2,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "jeans",
+          "undershirt",
+          "vest",
+		  "technician_shirt_gray",
+          "helmet_skid",
+          "sunglasses",
+          "gloves_fingerless",
+          "socks",
+          "boots",
+          "wristwatch",
+          "mbag"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_hunting", "container-item": "sheath" },
+          { "item": "762_54R", "charges": 20 },
+          { "item": "mosin44", "ammo-item": "762_54R", "charges": 5, "contents-item": [ "shoulder_strap" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+{
+    "type": "profession",
+    "id": "mercenarygrunt",
+    "name": "Mercenary Grunt",
+    "description": "You were a high school drop-out with one goal in mind: to join the military.  But that didn't work out so well. So instead, you opted for the private sector, bought some kit and a rifle, and took a few private contracts before this whole apcocalypse thing took prescedent. Maybe now it'll be easier to find some employment.",
+    "points": 3,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "low-grade kevlar",
+		      "dress_shirt",
+          "helmet_riot",
+          "glasses_bal",
+          "gloves_fingerless",
+          "socks",
+		      "lighter",
+		      "knee_pads",
+		      "cheap_ultralight_carrier",
+          "boots_hiking",
+          "wristwatch",
+          "slingpack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+		  { "item": "762_m43", "charges": 80 },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_hunting", "container-item": "sheath" },
+          { "item": "sks", "ammo-item": "762_m43", "charges": 10, "contents-item": [ "shoulder_strap" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+ {
+    "type": "profession",
+    "id": "mercenary",
+    "name": "Mercenary Veteran",
+    "description": "You were a high school drop-out with one goal in mind: to join the military.  But that didn't work out so well. So instead, you opted for the private sector, bought some kit and a rifle, and took more than a few private contracts before this whole apcocalypse thing took prescedent. In fact, you did pretty dang well. Maybe now it'll be easier to find some employment.",
+    "points": 4,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 1, "name": "pistol" },
+      { "level": 2, "name": "rifle" },
+      { "level": 1, "name": "melee" },
+      { "level": 2, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 1, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "combat blouse",
+          "tac_helmet",
+          "glasses_bal",
+          "gloves_tactical",
+          "socks_wool",
+		      "lighter",
+		      "knee_pads",
+		      "elbow_pads",
+		      "mask_ski",
+          "boots_combat",
+          "wristwatch",
+          "mbag"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_hunting", "container-item": "sheath" },
+          { "item": "cheap_ultralight_carrier", "contents-group": [ "merc_mags_ak74" ] },
+		      { "item": "cz75", "ammo-item": "9mmfmj", "charges": 13, "container-item": "holster" },
+          { "item": "ak74", "ammo-item": "545", "charges": 30, "contents-item": [ "shoulder_strap", "red_dot_sight"] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+   {
+    "type": "profession",
+    "id": "mercenary professional",
+    "name": "Professional Mercenary",
+    "description": "You were a high school drop-out with one goal in mind: to join the military.  But that didn't work out so well. So instead, you opted for the private sector, bought some kit and a rifle, and took more than a few private contracts before this whole apcocalypse thing took prescedent. In fact, you did pretty dang well. Maybe now it'll be easier to find some employment.",
+    "points": 6,
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 1, "name": "pistol" },
+	  { "level": 2, "name": "smg" },
+      { "level": 3, "name": "rifle" },
+      { "level": 1, "name": "melee" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "throw" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 1, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+		  "lightjacket_army",
+          "combat blouse",
+          "helmet_flak",
+          "glasses_bal",
+          "gloves_tactical",
+          "socks_wool",
+		  "lighter",
+		  "knee_pads",
+		  "elbow_pads",
+		  "mask_ski",
+          "boots_combat",
+          "diving_watch",
+		  "glowstick",
+		  "glowstick",
+		  "glowstick",
+		  "glowstick",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "tactical kevlar vest", "contents-group": [ "merc_mags_ak47" ] },
+		  { "item": "m1911", "ammo-item": "45_acp", "charges": 8, "container-item": "holster" },
+          { "item": "ak47", "ammo-item": "762_m43", "charges": 30, "contents-item": [ "shoulder_strap", "red_dot_sight", "grip"] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+{
+    "type": "profession",
+    "id": "rifleplinker",
+    "name": "Rifle Plinker",
+    "description": "You always considered yourself a hobbyist marksman, taking a day out of a weekend every month or so to buy a brick of .22 to burn off with your rifle at the range. One such day, the world happened to end right after you'd gone and picked up that monthly brick. Time to get plinking.",
+    "points": 1,
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" } ],
+    "items": {
+      "both": {
+        "items": [
+          "jeans",
+		  "jacket_light",
+          "undershirt",
+          "socks",
+          "longshirt",
+		  "mbag",
+          "boots_hiking",
+          "water_clean",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ruger_1022", "ammo-item": "22_lr", "charges": 25},
+          { "item": "22_lr", "charges": 100 },
+          { "item": "beer", "container-item": "bottle_glass" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    },
+    "flags": [ "" ]
+  },
+{
+    "type": "profession",
+    "id": "plinker",
+    "name": "Pistol Plinker",
+    "description": "You always considered yourself a hobbyist marksman, taking a day out of a weekend every month or so to buy a brick of .22 to burn off at the range. One such day, the world happened to end right after you'd gone and picked up that monthly brick. Time to get plinking.",
+    "points": 1,
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "pistol" } ],
+    "items": {
+      "both": {
+        "items": [
+          "jeans",
+		  "jacket_light",
+          "undershirt",
+          "socks",
+		  "mbag",
+          "longshirt",
+          "boots_hiking",
+          "water_clean",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "sw_22", "ammo-item": "22_lr", "charges": 10},
+          { "item": "sw22mag", "ammo-item": "22_lr", "charges": 10 },
+          { "item": "22_lr", "charges": 100 },
+          { "item": "beer", "container-item": "bottle_glass" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    },
+    "flags": [ "" ]
+  },
+{
+    "type": "profession",
+    "id": "sheltered_russian_spy",
+    "name": "Sheltered Russian Spy",
+    "description": "When the cataclysm began, you were in foreign soil, conducting espionage in a clandestine operation. You retreated to a sheltered listening post, waiting for word from command, which never came. Now, left with only your skills and what you had on you, winter has come and the radio has gone all but completely silent.",
+    "points": 5,
+    "skills": [
+      { "level": 2, "name": "tailor" },
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "pistol" },
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "melee" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "tshirt",
+          "socks",
+	        "trenchcoat",
+          "hat_fur",
+	        "two_way_radio",
+          "smart_phone",
+          "sweater",
+          "knuckle_brass",
+          "dress_shoes",
+          "suppressor_compact",
+          "file",
+          "briefcase",
+          "multitool",
+          "water_clean",
+          "matches",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "makarov", "ammo-item": "9x18mmP2", "container-item": "holster", "charges": 9 },
+          { "item": "makarovmag", "ammo-item": "9x18mmP2", "charges": 8 },
+          { "item": "makarovmag", "ammo-item": "9x18mmP2", "charges": 8 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+{
+    "type": "profession",
+    "id": "sheltered_german_spy",
+    "name": "Sheltered German Spy",
+    "description": "When the cataclysm began, you were in foreign soil, conducting espionage in a clandestine operation. You retreated to a sheltered listening post, waiting for word from command, which never came. Now, left with only your skills and what you had on you, winter has come and the radio has gone all but completely silent.",
+    "points": 5,
+    "skills": [
+      { "level": 2, "name": "tailor" },
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 2, "name": "mechanics" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "gun" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "fabrication" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "tshirt",
+          "socks",
+          "trenchcoat",
+	        "fedora",
+	        "two_way_radio",
+          "suppressor_compact",
+          "switchblade",
+          "smart_phone",
+          "sweater",
+          "dress_shoes",
+          "multitool",
+          "file",
+          "briefcase",
+          "water_clean",
+          "matches",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "walther_ppk", "ammo-item": "32_acp", "container-item": "holster", "charges": 9 },
+          { "item": "ppkmag", "ammo-item": "32_acp", "charges": 8 },
+          { "item": "ppkmag", "ammo-item": "32_acp", "charges": 8 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+{
+    "type": "profession",
+    "id": "sheltered_chinese_spy",
+    "name": "Sheltered Chinese Spy",
+    "description": "When the cataclysm began, you were in foreign soil, conducting espionage in a clandestine operation. You retreated to a sheltered listening post, waiting for word from command, which never came. Now, left with only your skills and what you had on you, winter has come and the radio has gone all but completely silent.",
+    "points": 5,
+    "skills": [
+      { "level": 2, "name": "tailor" },
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "gun" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 3, "name": "electronics" },
+      { "level": 2, "name": "throw" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "tshirt",
+          "socks",
+          "trenchcoat",
+	        "fedora",
+	        "two_way_radio",
+          "suppressor_compact",
+          "throwing_knife",
+          "smart_phone",
+          "sweater",
+          "dress_shoes",
+          "multitool",
+          "file",
+          "briefcase",
+          "water_clean",
+          "matches",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "tokarev", "ammo-item": "762_25typeP", "container-item": "holster", "charges": 9 },
+          { "item": "tokarevmag", "ammo-item": "762_25typeP", "charges": 8 },
+          { "item": "tokarevmag", "ammo-item": "762_25typeP", "charges": 8 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+{
+    "type": "profession",
+    "id": "russian_spy",
+    "name": "Russian Spy",
+    "description": "When the cataclysm began, you were in foreign soil, conducting espionage in a clandestine operation. You waited in hiding for word from command, which never came. Now, left with only your skills and what you had on you, winter has come and the radio has gone all but completely silent.",
+    "points": 3,
+    "skills": [
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "pistol" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "melee" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "tshirt",
+          "socks",
+	        "trenchcoat",
+          "hat_fur",
+	        "two_way_radio",
+          "knuckle_brass",
+          "dress_shoes",
+          "suppressor_compact",
+          "file",
+          "briefcase",
+          "multitool",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "makarov", "ammo-item": "9x18mmP2", "container-item": "holster", "charges": 9 },
+          { "item": "makarovmag", "ammo-item": "9x18mmP2", "charges": 8 },
+          { "item": "makarovmag", "ammo-item": "9x18mmP2", "charges": 8 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [  ]
+  },
+{
+    "type": "profession",
+    "id": "german_spy",
+    "name": "German Spy",
+    "description": "When the cataclysm began, you were in foreign soil, conducting espionage in a clandestine operation. You waited in hiding for word from command, which never came. Now, left with only your skills and what you had on you, winter has come and the radio has gone all but completely silent.",
+    "points": 3,
+    "skills": [
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 2, "name": "mechanics" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "gun" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "fabrication" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "socks",
+          "trenchcoat",
+	        "fedora",
+	        "two_way_radio",
+          "suppressor_compact",
+          "switchblade",
+          "tshirt",
+          "dress_shoes",
+          "multitool",
+          "file",
+          "briefcase",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "walther_ppk", "ammo-item": "32_acp", "container-item": "holster", "charges": 9 },
+          { "item": "ppkmag", "ammo-item": "32_acp", "charges": 8 },
+          { "item": "ppkmag", "ammo-item": "32_acp", "charges": 8 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [  ]
+  },
+{
+    "type": "profession",
+    "id": "chinese_spy",
+    "name": "Chinese Spy",
+    "description": "When the cataclysm began, you were in foreign soil, conducting espionage in a clandestine operation. You waited in hiding for word from command, which never came. Now, left with only your skills and what you had on you, winter has come and the radio has gone all but completely silent.",
+    "points": 3,
+    "skills": [
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "gun" },
+      { "level": 3, "name": "electronics" },
+      { "level": 2, "name": "throw" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "socks",
+          "trenchcoat",
+	        "fedora",
+	        "two_way_radio",
+          "suppressor_compact",
+          "throwing_knife",
+          "tshirt",
+          "dress_shoes",
+          "multitool",
+          "file",
+          "briefcase",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "tokarev", "ammo-item": "762_25typeP", "container-item": "holster", "charges": 9 },
+          { "item": "tokarevmag", "ammo-item": "762_25typeP", "charges": 8 },
+          { "item": "tokarevmag", "ammo-item": "762_25typeP", "charges": 8 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [  ]
+  },
+  {
+    "type": "profession",
+    "id": "super_spy",
+    "name": "Super spy",
+    "description": "You are an expertly trained agent of espionage, your exact allegiance kept under high classified secret. You learned to speak with a silver tongue and listen with a keen ear, and quickly climbed the ranks of your espionage bracket to near its head. However, now all word from command has gone quiet. At least you still have your sweet car and gadgets from your last mission in check.",
+    "points": 7,
+    "skills": [
+      { "level": 4, "name": "computer" },
+      { "level": 4, "name": "speech" },
+      { "level": 2, "name": "driving" },
+      { "level": 2, "name": "mechanics" },
+      { "level": 1, "name": "smg" },
+      { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 3, "name": "gun" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 1, "name": "fabrication" },
+      { "level": 3, "name": "traps" },
+      { "level": 3, "name": "electronics" },
+      { "level": 2, "name": "throw" }
+    ],    
+    "vehicle": "car_superspy",
+    "items": {
+      "both": {
+        "items": [
+      "socks_wool",
+	    "kevlar",
+      "trenchcoat",
+	    "fedora",
+	    "smart_phone",
+	    "electrohack",
+      "suppressor_compact",
+      "dress_shirt",
+      "dress_shoes",
+	    "rx12_injector",
+      "multitool",
+	    "fitover_sunglasses",
+	    "breeches",
+	    "picklocks",
+      "file",
+	    "grenade_emp",
+      "diving_watch"
+        ],
+        "entries": [
+          { "item": "briefcase_smg", "ammo-item": "9mmP", "charges": 30 },
+	  { "item": "ccpmag", "ammo-item": "9mmP", "charges": 8 },
+	  { "item": "diveknife", "container-item": "bootsheath"},
+	  { "item": "walther_ccp", "ammo-item": "9mmP", "container-item": "bholster", "charges": 9 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    },
+    "flags": [  ]
+  },
+{
+    "type": "profession",
     "id": "mili_jeepdriver",
     "name": "Military Jeep Driver",
     "description": "At first, your lightweight Muskat jeep took you across wide stretches of land to lay eyes on horrors beyond all recognition, in order to document them for command. Now, it serves as a speedy chariot to take you away from them.",
