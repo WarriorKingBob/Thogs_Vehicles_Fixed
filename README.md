@@ -4,6 +4,8 @@ Mod for Cataclysm: Bright Nights, adding a huge variety of aircraft, watercraft,
 Changes and fixes from caninmyham's original mod:
 - Rocket handcannon recipe fixed, now requires the Rocket Rifle as a component instead of nothing
 - Mounted Calico M960 on Spy car changed to M249. An SMG is too weak as a front mounted hidden gun, plus this eliminates conflict with Blazemod. Calico M960 instead have a high chance of spawning in the passenger's seat.
+- Drugdealer itemgroup updated to collection
+- Lycra replaced with synthetic fabric
 
 New Vehicles Parts:
 - Tiny Civilian Rotors (very light, very small)
