@@ -2,7 +2,6 @@
 Mod for Cataclysm: Bright Nights, adding a huge variety of aircraft, watercraft, and ground-based vehicles of both the military and civilian variety, ranging from compact urban cars to gyrocopters, experimental military aircraft, and a litany of new solar and alternatively powered options. Original mod author is caninmyham. Originally needed Thog's Things, also from caninmyham, as a dependency, this version is merged with it and fixed bugs and updated for latest version of CBN.
 
 Changes and fixes from caninmyham's original mod:
-- Adds Thog's Things as dependancy.
 - Rocket handcannon recipe fixed, now requires the Rocket Rifle as a component instead of nothing
 - Mounted Calico M960 on Spy car changed to M249. An SMG is too weak as a front mounted hidden gun, plus this eliminates conflict with Blazemod. Calico M960 instead have a high chance of spawning in the passenger's seat.
 
